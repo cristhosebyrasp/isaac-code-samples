@@ -1,8 +1,12 @@
 # Isaac Computer Science
 # Usage licensed under the Open Government Licence v3.0
 
+def letter():
+    pass
+
+
 def convert_to_lower(letter):
-    """Demonstrates how to use ASCII codes to convert letter case"""
+    # Demonstrates how to use ASCII codes to convert letter case
     letter_code = ord(letter)
     new_letter_code = letter_code + 32
     lower_case = chr(new_letter_code)
@@ -10,7 +14,7 @@ def convert_to_lower(letter):
 
 
 def test():
-    """Test data"""
+    # Test data
     letter = "B"
     lower_case = convert_to_lower(letter)
     print(lower_case)       
