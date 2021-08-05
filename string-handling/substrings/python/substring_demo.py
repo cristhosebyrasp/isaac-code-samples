@@ -2,7 +2,7 @@
 # Usage licensed under the Open Government Licence v3.0
 
 def show_substrings():
-    """Demonstrates extracting substrings"""
+    # Demonstrates extracting substrings
     my_string = "Computer Science"
     # Display characters 7 to 9
     print(my_string[7:10])
