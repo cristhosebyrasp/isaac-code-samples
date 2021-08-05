@@ -3,7 +3,7 @@
 
 
 def demonstrate_nulls():
-    """Demonstrates the difference between a null and a space"""
+    # Demonstrates the difference between a null and a space
     null_string = ""
     print(len(null_string))
     string_with_space = " "
